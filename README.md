@@ -7,7 +7,7 @@ Se debe mantener bajo
 Entregar:
 * Repositorio con el archivo con las pruebas unitarias y el código de producción bajo prueba (preferentemente en bitbucket o github).
 
-## Resolución:
+# Resolución:
 El trabajo contsta de 5 casos de prueba que fuerin divididos en 2 archivos para poder probar las distintas capa de el drivers para el **IC ADS1018** de Texas Instruments. Es un sensor de termocuplas de 2 canales más un sensor interno. 
 
 En el archivo `test_ads1018_spi.c` se probaron las **interfaces de comunicación por SPI**. Para ello se utilizaron mocks (`mock_ADS1018.h`) y una función callback, desarrollada en los archivos `utils_ADS1018.h` y `.c.`, utilizando las siguientes funcionalidades:
